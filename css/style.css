@@ -1,0 +1,17 @@
+/* Import your Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+/* Reset & base typography */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Organic Swift-style background blob */
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #ff7900 0%, #ffbd1f 100%);
+    clip-path: ellipse(75% 65% at 50% 35%);
+    z-index: 0;
+}
